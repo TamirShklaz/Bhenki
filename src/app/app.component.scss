@@ -1,0 +1,47 @@
+#scene {
+  position: absolute;
+  z-index: 1;
+  margin-right: 128px;
+}
+
+.title {
+  margin-left: 256px;
+  margin-bottom: 512px;
+  z-index: 2;
+}
+.pageContainer {
+  min-width: 100vw !important;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgb(239, 243, 245) 0%, rgb(244, 248, 250) 100%);
+}
+
+.heroContainer {
+  min-width: 100vw !important;
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  background-size: cover;
+}
+
+.supportedIntegrations {
+  background: linear-gradient(rgb(239, 243, 245) 0%, rgb(244, 248, 250) 100%);
+  min-height: 40vh;
+  min-width: 80vw;
+}
+
+.brands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 256px;
+    height: 256px;
+  }
+}
