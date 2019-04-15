@@ -29,10 +29,83 @@
   background-size: cover;
 }
 
+.intro {
+  max-width: 70vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  padding: 64px;
+  h1 {
+    line-height: 1.12;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: rgb(12, 52, 75);
+    margin: 0px;
+  }
+  img {
+    width: 512px;
+    height: 512px;
+  }
+}
+
+.benifit {
+  display: flex;
+  flex-direction: row;
+  margin: 32px;
+  img {
+    width: 64px;
+    height: 64px;
+    margin-right: 16px;
+  }
+  p {
+    width: 100%;
+    max-width: 430px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(61, 88, 102);
+  }
+}
+
 .supportedIntegrations {
-  background: linear-gradient(rgb(239, 243, 245) 0%, rgb(244, 248, 250) 100%);
-  min-height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   min-width: 80vw;
+  img {
+    width: 164px;
+    height: 164px;
+    margin: 32px;
+    filter: grayscale(1);
+  }
+  h4 {
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    margin-bottom: 16px;
+    color: rgb(143, 166, 178);
+    font-weight: bold;
+  }
+}
+
+.supportedContainer {
+  background: #eee;
+  min-width: 100vw;
+  padding: 128px;
+}
+
+.supported {
+  display: flex;
+  flex-direction: column;
+}
+
+.comingSoon {
+  display: flex;
+  flex-direction: column;
 }
 
 .brands {
@@ -43,5 +116,20 @@
   img {
     width: 256px;
     height: 256px;
+  }
+}
+
+.tech {
+  padding: 128px;
+  .logo {
+    margin-right: 32px;
+    width: 88px;
+    height: 88px;
+  }
+
+  .codeContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #2d3037;
   }
 }
